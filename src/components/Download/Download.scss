@@ -1,0 +1,21 @@
+.download_section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 120px 0px;
+  justify-content: center;
+}
+
+.button {
+  width: 220px;
+  height: 70px;
+  background: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #4CAF50;
+  &:hover {
+    background: lightgreen;
+  }
+}

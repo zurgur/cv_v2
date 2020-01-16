@@ -1,0 +1,28 @@
+$break-small: 320px;
+$break-medium: 500px;
+$break-large: 1500px;
+
+.fade_section {
+  padding: 120px 100px;
+  display: flex;
+  width: calc(100% - 200px);
+  visibility: visible;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s ease-in;
+       -moz-transition: opacity 0.8s ease-in;
+        -ms-transition: opacity 0.8s ease-in;
+         -o-transition: opacity 0.8s ease-in;
+            transition: opacity 0.8s ease-in;
+  @media screen and (max-width: $break-medium) {
+    width: 100%;
+    padding: 0;
+  }
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+}
+.fade_section.visible {
+  opacity: 1;
+}

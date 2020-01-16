@@ -1,0 +1,20 @@
+$break-small: 320px;
+$break-medium: 500px;
+$break-large: 1500px;
+
+.slillz_info {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  @media screen and (max-width: $break-small) {
+    width: calc(100% - 20px);
+    text-align: inherit;
+    padding: 20px 10px;
+  }
+}
+
+.category_name {
+  font-size: 1.3rem;
+  font-weight: 500;
+}

@@ -1,0 +1,69 @@
+$break-small: 320px;
+$break-medium: 500px;
+$break-large: 1500px;
+
+.background_section {
+  padding: 120px 100px;
+  display: flex;
+  width: calc(100% - 200px);
+  visibility: visible;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+       -moz-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+         -o-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+  @media screen and (max-width: $break-medium) {
+    width: 100%;
+    padding: 0;
+  }
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+}
+.background_section.visible {
+  opacity: 1;
+}
+
+.section_name {
+  width: 30%;
+  color: #4CAF50;
+  font-weight: 500;
+  text-align: right;
+  margin: 0px 70px 0px 0px;
+  font-size: 1.4rem;
+  @media screen and (max-width: $break-small) {
+    width: calc(100% - 20px);
+    text-align: inherit;
+    padding: 20px 10px;
+  }
+}
+.section_info_background {
+  margin-top: -20px;
+  width: 70%;
+  @media screen and (max-width: $break-small) {
+   width: calc(100% - 20px);
+   padding: 0px 10px;
+  }
+}
+
+p {
+  font-size: 1.3rem;
+  @media screen and (max-width: $break-large) {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: $break-medium) {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: $break-small) {
+    font-size: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+}
