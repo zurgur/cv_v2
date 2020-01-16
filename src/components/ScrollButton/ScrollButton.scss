@@ -1,0 +1,9 @@
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-size: 2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,31 @@
+$break-small: 320px;
+$break-medium: 500px;
+$break-large: 1500px;
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 120px 100px;
+  @media screen and (max-width: $break-medium) {
+    padding: 40px 20px;
+  }
+  @media screen and (max-width: $break-small) {
+    padding: 20px 10px;
+  }
+}
+
+.social_links {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  @media screen and (max-width: $break-medium) {
+    font-size: 1rem;
+    min-width: 100%;
+  }
+  @media screen and (max-width: $break-small) {
+    font-size: .9rem;
+    min-width: 100%;
+
+  }
+}

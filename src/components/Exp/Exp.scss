@@ -16,3 +16,11 @@ $break-large: 1500px;
     font-size: 1rem;
   } 
 }
+
+.Job_info {
+  width: 70%;
+  @media screen and (max-width: $break-small) {
+   width: calc(100% - 20px);
+   padding: 0px 10px;
+  }
+}

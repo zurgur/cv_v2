@@ -41,7 +41,6 @@ $break-large: 1500px;
   }
 }
 .section_info_background {
-  margin-top: -20px;
   width: 70%;
   @media screen and (max-width: $break-small) {
    width: calc(100% - 20px);
@@ -49,8 +48,9 @@ $break-large: 1500px;
   }
 }
 
-p {
+.text {
   font-size: 1.3rem;
+  padding-bottom: 20px;
   @media screen and (max-width: $break-large) {
     font-size: 1.3rem;
   }
