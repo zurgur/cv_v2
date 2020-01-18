@@ -6,7 +6,7 @@ export default () => {
   const info = [
     {
       tittle: 'Dealer portal',
-      info: 'I work as a part of an innovation team. The solutions we work with are all created for the Microsoft Dynamics platform along with custom web solutions, including React.',
+      info: 'The Annata Dealer Portal provides a web interface that seamlessly integrates with Microsoft Dynamics 365 Finance & Operations platform to facilitate better communication between the manufacturer, dealer and importer.',
       link: 'https://annata.net/',
       image: './DealerPortal.png',
       technology: ['ReactJs', 'TypeScript', 'Mobx state tree', '.Net Core', 'Azure', 'Dev Ops', 'git', 'Dynamics 365']
