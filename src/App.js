@@ -12,7 +12,7 @@ import FeeturedProjects from './components/FeeturedProjects';
 
 function App() {
   const [className, setClassName] = useState("");
-  const toggleTheme = (e) => {
+  const toggleTheme = () => {
     if (className === '') {
       setClassName('dark');
     } else {

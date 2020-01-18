@@ -34,7 +34,7 @@ $break-large: 1500px;
   text-align: right;
   margin: 0px 70px 0px 0px;
   font-size: 1.4rem;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     width: calc(100% - 20px);
     text-align: inherit;
     padding: 20px 10px;
@@ -42,7 +42,7 @@ $break-large: 1500px;
 }
 .section_info_background {
   width: 70%;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
    width: calc(100% - 20px);
    padding: 0px 10px;
   }

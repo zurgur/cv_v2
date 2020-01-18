@@ -14,11 +14,11 @@ $break-large: 1500px;
          -o-transition: opacity 0.8s ease-in;
             transition: opacity 0.8s ease-in;
   @media screen and (max-width: $break-medium) {
-    width: 100%;
-    padding: 20;
+    width: calc(100% - 10px);
+    padding: 5px;
     flex-direction: column;
   }
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     width: 100%;
     padding: 0;
     flex-direction: column;

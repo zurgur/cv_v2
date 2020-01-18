@@ -11,6 +11,9 @@ $break-large: 1500px;
   width: 200px;
   min-width: 200px;
   margin-right: 40px;
+  @media screen and (max-width: $break-medium) {
+    width: 100%;
+  }
 }
 
 .pro_img_text {
@@ -53,7 +56,7 @@ $break-large: 1500px;
   margin-right: 10px;
   flex-flow: wrap;
   // justify-content: space-between;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     width: 100%;
     margin: 0px;
   }

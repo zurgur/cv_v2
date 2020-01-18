@@ -19,7 +19,7 @@ $break-large: 1500px;
 
 .Job_info {
   width: 70%;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
    width: calc(100% - 20px);
    padding: 0px 10px;
   }

@@ -52,13 +52,13 @@ export default () => {
                   <a href={project.git}>source code</a>
                 ) : (
                   project.git?.map(linkInfo => (
-                  <a className='cusrom_src' href={linkInfo.link}>{linkInfo.name}<b> source code</b></a>
+                  <a className='cusrom_src' key={linkInfo.link} href={linkInfo.link}>{linkInfo.name}<b> source code</b></a>
                   ))
                 )}
               </div>
               <div className='tec_container'>
                 {project.technology?.map(tec => (
-                  <div className='technology'>
+                  <div className='technology'key={tec}>
                     {tec}
                   </div>
                 ))}
