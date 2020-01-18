@@ -14,7 +14,6 @@ export default () => {
     {
       tittle: 'Laxness',
       info: 'Worked on this project in collaboration with Gljúfrastein good experience to learn how to work with a customer. The project was originally made in android native but we later decided to port it over to react native.',
-      link: 'https://www.hi.is/staff/steinng',
       git: [{ link: 'https://github.com/mimiqkz/Laxness', name: 'Android'}, { link: 'https://github.com/mimiqkz/laxness-react', name: 'React Native'}],
       image: './laxness.png',
       technology: ['Android Native', 'React Native', 'Express', 'Node', 'PostgreSQL', 'Java', 'JavaScript', 'git', 'gitHub']
@@ -23,6 +22,7 @@ export default () => {
       tittle: 'Cv version 1',
       info: 'React site I made when applying for jobs after school',
       git: 'https://github.com/zurgur/CV',
+      link: 'https://zurgur.github.io/CV/',
       image: './Cv_version1.png',
       technology: ['ReactJs', 'JavaSqript', 'node', 'git', 'GitHub']
     },
