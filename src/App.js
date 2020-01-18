@@ -26,9 +26,9 @@ function App() {
       <Skillz />
       <Exp />
       <Download />
+      {/* <ScrollButton /> */}
       <FeeturedProjects />
       <Footer />
-      <ScrollButton />
     </div>
   );
 }
