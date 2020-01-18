@@ -1,0 +1,48 @@
+$break-small: 320px;
+$break-medium: 1000px;
+$break-large: 1500px;
+
+.pro_image {
+  width: 100%;
+  height: auto;
+}
+
+.pro_text {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 40px;
+}
+
+.pro_img_text {
+  display: flex;
+  margin-bottom: 40px;
+  @media screen and (max-width: $break-medium) {
+    padding: 0;
+    flex-direction: column;
+  }
+  @media screen and (max-width: $break-small) {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+.pro_figure {
+  max-width: 700px;
+}
+
+.pro {
+  overflow: hidden;
+  width: 100%;
+  @media screen and (max-width: $break-medium) {
+    width: 100%;
+  }
+}
+
+.cusrom_src {
+  font-weight: 200;
+}
+
+.src_container {
+  display: flex;
+  flex-direction: column;
+}

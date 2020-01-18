@@ -8,6 +8,7 @@ import Skillz from './components/Skillz';
 import Download from './components/Download';
 import Exp from './components/Exp';
 import ScrollButton from './components/ScrollButton';
+import FeeturedProjects from './components/FeeturedProjects';
 
 function App() {
   const [className, setClassName] = useState("");
@@ -25,6 +26,7 @@ function App() {
       <Skillz />
       <Exp />
       <Download />
+      <FeeturedProjects />
       <Footer />
       <ScrollButton />
     </div>
